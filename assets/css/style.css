@@ -1,0 +1,259 @@
+/************************************ General **********************************/
+
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1140px !important;
+    }
+}
+
+body{
+    font-family: 'Josefin Slab', serif;
+    background: #ededed;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+a{
+    color: unset;
+}
+
+a:hover{
+    color: unset;
+}
+
+.whitey{
+    background: #f5f5f5;
+    padding: 30px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+
+/******************************************************************************/
+
+
+
+
+
+
+/************************************ Header **********************************/
+
+.header-second{
+    justify-content: flex-end;
+}
+
+.header-second a{
+    position: relative;
+}
+
+.header-second svg{
+    position: absolute;
+    top: -12px;
+    left: 0;
+}
+
+.blog-header{
+    background: #242424;
+    color: #fff;
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+
+.blog-header svg{
+    margin-right: 5px;
+}
+
+.blog-header svg:hover{
+    color: #c5ecff;
+}
+
+::placeholder {
+    font-weight: 600;
+    color: #383838;
+    font-size: 16px;
+    font-family: 'Josefin Slab', serif;
+}
+
+input[type=text] {
+    font-size: 17px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+input[type=email] {
+    font-size: 16px;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+@media (max-width: 575px){
+
+    .header-first{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    
+    .header-second{
+        justify-content: center;
+    }
+
+}
+
+/******************************************************************************/
+
+
+
+
+
+
+/************************************ Title & Image ****************************/
+
+h1{
+    font-weight: 900;
+    color: #000000;
+    display: inline-block;
+    border-bottom: 4px solid black;
+    margin-bottom: 48px ;
+}
+
+.mainimg{
+    max-height: 600px;
+}
+
+/*******************************************************************************/
+
+
+
+
+
+
+/************************************ Blog ************************************/
+
+.page-link{
+    border-radius: 7px;
+}
+
+.page-item{
+    padding-right: 10px;
+}
+
+.title{
+    font-weight: 900;
+}
+
+.firstletter{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 17px;
+}
+
+.arrow{
+    font-size: 20px;
+    line-height: 17px;
+    padding-left: 10px;
+    font-weight: 900;
+}
+
+.love{
+    font-size: 19px;
+    line-height: 19px;
+    color: #ff6868;
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+.love:hover{
+    color: #ff0a0a;
+}
+
+.comment{
+    font-size: 19px;
+    line-height: 19px;
+    color: #6abdff;
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+.comment:hover{
+    color:  #0d94ff;
+}
+
+.blogpost a:link{
+    text-decoration: none;
+}
+
+/******************************************************************************/
+
+
+
+
+
+/************************************ Sidebar **********************************/
+
+.faceimg{
+    border-radius: 50%;
+    max-width: 200px;
+}
+
+.small{
+    font-weight: 600;
+}
+
+.listing{
+    font-size: 16px;
+}
+
+.listing a:link{
+    text-decoration: none;
+}
+
+li{
+    padding-bottom: 4px;
+}
+
+.subscribe-email{
+    margin-bottom: 12px;
+    max-width: 100%;
+}
+
+.subscribe-button{
+    margin-top: -6px;
+}
+
+/******************************************************************************/
+
+
+
+
+
+/************************************ Footer **********************************/
+
+.blog-footer{
+    background: #242424;
+    color: #fff;
+    padding-top: 4px;
+    padding-bottom: 2px;
+}
+
+.copyright{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.copyright span{
+    padding-left: 10px;
+}
+
+.copyright a{
+    color: #fff;
+}
+
+.copyright a:hover{
+    color: #559aff;
+}
+
+/******************************************************************************/
